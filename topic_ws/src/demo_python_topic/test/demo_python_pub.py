@@ -1,6 +1,5 @@
 import rclpy
 from rclpy.node import Node
-import requests
 
 
 class PublisherNode(Node):
@@ -9,7 +8,6 @@ class PublisherNode(Node):
         self.get_logger().info(f"{node_name}启动！")
 
         
-
 def main():
     rclpy.init()
     pub_node = PublisherNode("")
