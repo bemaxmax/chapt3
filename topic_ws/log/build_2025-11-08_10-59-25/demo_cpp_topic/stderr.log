@@ -1,0 +1,10 @@
+[01m[K/home/ubuntu/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_circle.cpp:[m[K In constructor ‘[01m[KTurtleCircle::[01;32m[KTurtleCircle[m[K(const std::string&)[m[K’:
+[01m[K/home/ubuntu/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_circle.cpp:18:72:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid TurtleCircle::[01;32m[Ktimer_callback[m[K()[m[K’
+   18 |         timer = this->create_wall_timer(1000ms,std::bind([01;31m[KTurtleCircle::timer_callback[m[K,this));
+      |                                                          [01;31m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_circle.cpp:21:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   21 |     void [01;36m[Ktimer_callback[m[K()
+      |          [01;36m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/turtle_cricle.dir/build.make:76：CMakeFiles/turtle_cricle.dir/src/turtle_circle.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/turtle_cricle.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

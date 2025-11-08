@@ -1,0 +1,37 @@
+[0.008s] Invoking command in '/home/ubuntu/chapt3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/chapt3/topic_ws/src/demo_cpp_topic -DCMAKE_INSTALL_PREFIX=/home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic
+[0.018s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.164s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.178s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.183s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.190s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.197s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.237s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.238s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.286s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.328s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.348s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[0.380s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.455s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.455s] -- Configured cppcheck include dirs: 
+[0.456s] -- Configured cppcheck exclude dirs and/or files: 
+[0.456s] -- Added test 'lint_cmake' to check CMake code style
+[0.456s] -- Added test 'uncrustify' to check C / C++ code style
+[0.456s] -- Configured uncrustify additional arguments: 
+[0.456s] -- Added test 'xmllint' to check XML markup files
+[0.457s] -- Configuring done (0.4s)
+[0.464s] -- Generating done (0.0s)
+[0.470s] -- Build files have been written to: /home/ubuntu/chapt3/topic_ws/build/demo_cpp_topic
+[0.476s] Invoked command in '/home/ubuntu/chapt3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/chapt3/topic_ws/src/demo_cpp_topic -DCMAKE_INSTALL_PREFIX=/home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic
+[0.478s] Invoking command in '/home/ubuntu/chapt3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/chapt3/topic_ws/build/demo_cpp_topic -- -j16 -l16
+[0.515s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_cricle.dir/src/turtle_circle.cpp.o[0m
+[1.806s] [01m[K/home/ubuntu/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_circle.cpp:[m[K In constructor ‘[01m[KTurtleCircle::[01;32m[KTurtleCircle[m[K(const std::string&)[m[K’:
+[1.806s] [01m[K/home/ubuntu/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_circle.cpp:18:72:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid TurtleCircle::[01;32m[Ktimer_callback[m[K()[m[K’
+[1.806s]    18 |         timer = this->create_wall_timer(1000ms,std::bind([01;31m[KTurtleCircle::timer_callback[m[K,this));
+[1.806s]       |                                                          [01;31m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.806s] [01m[K/home/ubuntu/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_circle.cpp:21:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.806s]    21 |     void [01;36m[Ktimer_callback[m[K()
+[1.806s]       |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.398s] gmake[2]: *** [CMakeFiles/turtle_cricle.dir/build.make:76：CMakeFiles/turtle_cricle.dir/src/turtle_circle.cpp.o] 错误 1
+[2.398s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/turtle_cricle.dir/all] 错误 2
+[2.398s] gmake: *** [Makefile:146：all] 错误 2
+[2.400s] Invoked command in '/home/ubuntu/chapt3/topic_ws/build/demo_cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/chapt3/topic_ws/build/demo_cpp_topic -- -j16 -l16

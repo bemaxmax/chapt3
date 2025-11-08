@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/turtle_cricle.dir/src/turtle_circle.cpp.o[0m
+[100%] [32m[1mLinking CXX executable turtle_cricle[0m
+[100%] Built target turtle_cricle
+-- Install configuration: ""
+-- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_cricle
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_cricle" to ""
+-- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic
+-- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic
+-- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh
+-- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv
+-- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash
+-- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh
+-- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh
+-- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv
+-- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv
+-- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic
+-- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake
+-- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake
+-- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.xml

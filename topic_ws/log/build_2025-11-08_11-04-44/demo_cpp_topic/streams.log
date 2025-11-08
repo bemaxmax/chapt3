@@ -1,0 +1,25 @@
+[0.007s] Invoking command in '/home/ubuntu/chapt3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/chapt3/topic_ws/build/demo_cpp_topic -- -j16 -l16
+[0.054s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_cricle.dir/src/turtle_circle.cpp.o[0m
+[2.703s] [100%] [32m[1mLinking CXX executable turtle_cricle[0m
+[2.827s] [100%] Built target turtle_cricle
+[2.838s] Invoked command in '/home/ubuntu/chapt3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/chapt3/topic_ws/build/demo_cpp_topic -- -j16 -l16
+[2.845s] Invoking command in '/home/ubuntu/chapt3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/chapt3/topic_ws/build/demo_cpp_topic
+[2.851s] -- Install configuration: ""
+[2.851s] -- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_cricle
+[2.852s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_cricle" to ""
+[2.852s] -- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic
+[2.852s] -- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic
+[2.852s] -- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh
+[2.852s] -- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv
+[2.852s] -- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh
+[2.852s] -- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv
+[2.852s] -- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash
+[2.852s] -- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh
+[2.852s] -- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh
+[2.852s] -- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv
+[2.852s] -- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv
+[2.852s] -- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic
+[2.852s] -- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake
+[2.853s] -- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake
+[2.853s] -- Installing: /home/ubuntu/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.xml
+[2.854s] Invoked command in '/home/ubuntu/chapt3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/chapt3/topic_ws/build/demo_cpp_topic
