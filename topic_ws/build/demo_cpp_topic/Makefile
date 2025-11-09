@@ -210,6 +210,19 @@ turtle_cricle/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_cricle.dir/build.make CMakeFiles/turtle_cricle.dir/build
 .PHONY : turtle_cricle/fast
 
+#=============================================================================
+# Target rules for targets named turtle_control
+
+# Build rule for target.
+turtle_control: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtle_control
+.PHONY : turtle_control
+
+# fast build rule for target.
+turtle_control/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control.dir/build.make CMakeFiles/turtle_control.dir/build
+.PHONY : turtle_control/fast
+
 src/turtle_circle.o: src/turtle_circle.cpp.o
 .PHONY : src/turtle_circle.o
 
@@ -234,6 +247,30 @@ src/turtle_circle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_cricle.dir/build.make CMakeFiles/turtle_cricle.dir/src/turtle_circle.cpp.s
 .PHONY : src/turtle_circle.cpp.s
 
+src/turtle_control.o: src/turtle_control.cpp.o
+.PHONY : src/turtle_control.o
+
+# target to build an object file
+src/turtle_control.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control.dir/build.make CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o
+.PHONY : src/turtle_control.cpp.o
+
+src/turtle_control.i: src/turtle_control.cpp.i
+.PHONY : src/turtle_control.i
+
+# target to preprocess a source file
+src/turtle_control.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control.dir/build.make CMakeFiles/turtle_control.dir/src/turtle_control.cpp.i
+.PHONY : src/turtle_control.cpp.i
+
+src/turtle_control.s: src/turtle_control.cpp.s
+.PHONY : src/turtle_control.s
+
+# target to generate assembly for a file
+src/turtle_control.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control.dir/build.make CMakeFiles/turtle_control.dir/src/turtle_control.cpp.s
+.PHONY : src/turtle_control.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -249,10 +286,14 @@ help:
 	@echo "... test"
 	@echo "... demo_cpp_topic_uninstall"
 	@echo "... uninstall"
+	@echo "... turtle_control"
 	@echo "... turtle_cricle"
 	@echo "... src/turtle_circle.o"
 	@echo "... src/turtle_circle.i"
 	@echo "... src/turtle_circle.s"
+	@echo "... src/turtle_control.o"
+	@echo "... src/turtle_control.i"
+	@echo "... src/turtle_control.s"
 .PHONY : help
 
 

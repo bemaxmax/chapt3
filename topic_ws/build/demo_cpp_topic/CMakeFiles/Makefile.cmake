@@ -771,4 +771,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/demo_cpp_topic_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/turtle_cricle.dir/DependInfo.cmake"
+  "CMakeFiles/turtle_control.dir/DependInfo.cmake"
   )

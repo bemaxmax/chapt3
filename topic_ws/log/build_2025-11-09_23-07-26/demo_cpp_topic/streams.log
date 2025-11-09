@@ -1,0 +1,39 @@
+[0.007s] Invoking command in '/home/ubuntu/chapt3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/chapt3/topic_ws/build/demo_cpp_topic -- -j16 -l16
+[0.027s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.180s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.196s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.201s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.208s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.215s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.256s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.257s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.297s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.340s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.360s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[0.393s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.472s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.472s] -- Configured cppcheck include dirs: 
+[0.472s] -- Configured cppcheck exclude dirs and/or files: 
+[0.472s] -- Added test 'lint_cmake' to check CMake code style
+[0.473s] -- Added test 'uncrustify' to check C / C++ code style
+[0.473s] -- Configured uncrustify additional arguments: 
+[0.473s] -- Added test 'xmllint' to check XML markup files
+[0.473s] -- Configuring done (0.4s)
+[0.503s] -- Generating done (0.0s)
+[0.506s] -- Build files have been written to: /home/ubuntu/chapt3/topic_ws/build/demo_cpp_topic
+[0.534s] [ 25%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[0.543s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_cricle.dir/src/turtle_circle.cpp.o[0m
+[1.904s] [01m[K/home/ubuntu/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_control.cpp:[m[K In constructor ‘[01m[KTurtleControl::[01;32m[KTurtleControl[m[K(const std::string&)[m[K’:
+[1.904s] [01m[K/home/ubuntu/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_control.cpp:22:34:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid TurtleControl::[01;32m[Kon_pose_recieved[m[K(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’
+[1.904s]    22 |         std::bind([01;31m[KTurtleControl::on_pose_recieved[m[K,this,std::placeholders::_1));
+[1.904s]       |                   [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.904s] [01m[K/home/ubuntu/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_control.cpp:26:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.904s]    26 |     void [01;36m[Kon_pose_recieved[m[K(const turtlesim::msg::Pose::SharedPtr Pose)
+[1.904s]       |          [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.504s] gmake[2]: *** [CMakeFiles/turtle_control.dir/build.make:76：CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o] 错误 1
+[2.504s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/turtle_control.dir/all] 错误 2
+[2.504s] gmake[1]: *** 正在等待未完成的任务....
+[3.198s] [ 75%] [32m[1mLinking CXX executable turtle_cricle[0m
+[3.325s] [ 75%] Built target turtle_cricle
+[3.325s] gmake: *** [Makefile:146：all] 错误 2
+[3.327s] Invoked command in '/home/ubuntu/chapt3/topic_ws/build/demo_cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/chapt3/topic_ws/build/demo_cpp_topic -- -j16 -l16
