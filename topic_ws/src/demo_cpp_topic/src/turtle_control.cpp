@@ -27,15 +27,16 @@ public:
     {
         auto current_x = Pose->x;
         auto current_y = Pose->y;
+        RCLCPP_INFO(get_logger(),"当前：x = %f,当前：y = %f ",current_x,current_y);
         
         auto distance = std::sqrt((target_x - current_x)*(target_x - current_x)
         +(target_y - current_y)*(target_y - current_y));
         
-        auto angle = std::atan2(target_y - current_y,target_x - current_x) - Pose->theta;
+        auto angle = std::atan2((target_y - current_y),(target_x - current_x)) - Pose->theta;
         
         auto msg = geometry_msgs::msg::Twist();
         if (distance>0.1){
-            if (fabs(angle>0.2)){
+            if (fabs(angle)>0.2){
                 msg.angular.z = fabs(angle);
             }
             else{
@@ -50,7 +51,6 @@ public:
 int main(int argc, char* argv[]){
     rclcpp::init(argc,argv);
     auto turtle_con = std::make_shared<TurtleControl>("con_node");
-    //TurtleControl turtle_pub = TurtleControl("pub_node");不能直接创建栈对象！！
     rclcpp::spin(turtle_con);
     rclcpp::shutdown();
     return 0;

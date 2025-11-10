@@ -1,0 +1,10 @@
+{
+  "package_name": "status_interface",
+  "output_dir": "/home/ubuntu/chapt3/topic_practice_ws/build/status_interface/rosidl_generator_type_description/status_interface",
+  "idl_tuples": [
+    "/home/ubuntu/chapt3/topic_practice_ws/build/status_interface/rosidl_adapter/status_interface:msg/SystemStatus.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}
