@@ -1,0 +1,2 @@
+[console_scripts]
+status_pub_node = status_publisher.system_status_pub:main

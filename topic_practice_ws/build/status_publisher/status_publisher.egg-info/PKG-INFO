@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: status-publisher
+Version: 0.0.0
+Summary: TODO: Package description
+Maintainer: ubuntu
+Maintainer-email: 1610783681@qq.com
+License: Apache-2.0
+Provides-Extra: test
+License-File: LICENSE

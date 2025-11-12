@@ -1,0 +1,16 @@
+[0.006s] Invoking command in '/home/ubuntu/chapt3/topic_practice_ws/build/status_display': AMENT_PREFIX_PATH=/home/ubuntu/chapt3/topic_practice_ws/install/status_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/chapt3/topic_practice_ws/install/status_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntu/chapt3/topic_practice_ws/install/status_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/chapt3/topic_practice_ws/install/status_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/chapt3/topic_practice_ws/build/status_display -- -j16 -l16
+[0.051s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o[0m
+[0.574s] [01m[K/home/ubuntu/chapt3/topic_practice_ws/src/status_display/src/hello_qt.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[0.574s] [01m[K/home/ubuntu/chapt3/topic_practice_ws/src/status_display/src/hello_qt.cpp:7:21:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KQLabel[m[K’ to ‘[01m[KQLabel*[m[K’ in initialization
+[0.574s]     7 |     QLabel* label = [01;31m[KQLabel()[m[K;
+[0.574s]       |                     [01;31m[K^~~~~~~~[m[K
+[0.575s]       |                     [01;31m[K|[m[K
+[0.575s]       |                     [01;31m[KQLabel[m[K
+[0.575s] [01m[K/home/ubuntu/chapt3/topic_practice_ws/src/status_display/src/hello_qt.cpp:9:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kmesssage[m[K’ was not declared in this scope; did you mean ‘[01m[Kmessage[m[K’?
+[0.575s]     9 |     label->setText([01;31m[Kmesssage[m[K);
+[0.575s]       |                    [01;31m[K^~~~~~~~[m[K
+[0.575s]       |                    [32m[Kmessage[m[K
+[0.686s] gmake[2]: *** [CMakeFiles/hello_qt.dir/build.make:76：CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o] 错误 1
+[0.686s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/hello_qt.dir/all] 错误 2
+[0.686s] gmake: *** [Makefile:146：all] 错误 2
+[0.688s] Invoked command in '/home/ubuntu/chapt3/topic_practice_ws/build/status_display' returned '2': AMENT_PREFIX_PATH=/home/ubuntu/chapt3/topic_practice_ws/install/status_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/chapt3/topic_practice_ws/install/status_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntu/chapt3/topic_practice_ws/install/status_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/chapt3/topic_practice_ws/install/status_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/chapt3/topic_practice_ws/build/status_display -- -j16 -l16
